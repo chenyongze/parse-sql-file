@@ -13,7 +13,12 @@
 
 -  导入类库：
 
-`include('./Sql.class.php');`
+```php
+
+require_once __DIR__.'./../vendor/autoload.php';
+use Yonze\ParseSql\Sql;
+
+ ````
 
 -  直接调用静态方法：
 

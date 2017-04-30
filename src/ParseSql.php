@@ -2,10 +2,12 @@
 // +----------------------------------------------------------------------
 // | 读取Sql文件并返回可执行的sql语句
 // +----------------------------------------------------------------------
-// | Copyright (c) 2016 http://caiweiming.com All rights reserved.
+// | Copyright (c) 2016 http://dotalk.cn All rights reserved.
 // +----------------------------------------------------------------------
-// | Author: CaiWeiMing <314013107@qq.com>
+// | Author: YongzeChen <sapphire.php@gmail.com>
 // +----------------------------------------------------------------------
+
+namespace Yonze\ParseSql;
 
 class Sql
 {
