@@ -5,6 +5,10 @@
 ## 支持
 经测试，从**Navicat for MySql** 和 **phpMyAdmin**导出的sql文件均可读取。
 
+##安装
+-
+`composer require chenyongze/parse-sql-file:dev-master`
+
 ## 使用
 
 -  导入类库：
