@@ -1,8 +1,8 @@
 <?php
 header("Content-type: text/html; charset=utf-8");
 
-// 引入类库
-require_once __DIR__.'./../vendor/autoload.php';
+
+require_once __DIR__.'/../vendor/autoload.php';
 use Yonze\ParseSql\Sql;
 
 // 默认读取的sql语句是数组形式
