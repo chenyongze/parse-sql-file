@@ -1,5 +1,5 @@
 {
-    "name": "chenyongze/parseSqlFile",
+    "name": "chenyongze/parse-sql-file",
     "description": "可以读取sql文件，并获得纯sql语句",
     "keywords": ["chenyongze", "yongze","sql","parse","sqlFile"],
     "type": "extension",
