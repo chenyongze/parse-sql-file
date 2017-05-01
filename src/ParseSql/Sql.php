@@ -44,7 +44,7 @@ class Sql
     public static function parseSql($content = '', $string = false, $replace = [])
     {
         // 纯sql内容
-        $pure_sql = '';
+        $pure_sql = [];
         // 被替换的前缀
         $from = '';
         // 要替换的前缀
