@@ -2,7 +2,7 @@
     "name": "chenyongze/parse-sql-file",
     "description": "可以读取sql文件，并获得纯sql语句",
     "keywords": ["chenyongze", "yongze","sql","parse","sqlFile"],
-    "type": "extension",
+    "type": "library",
     "version": "1.0.0",
     "license": "MIT",
     "authors": [
@@ -14,5 +14,13 @@
     "require": {
         "php": ">=5.4.0"
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Yongze\\": "src/"
+        }
+    }
 }

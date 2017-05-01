@@ -7,7 +7,7 @@
 // | Author: YongzeChen <sapphire.php@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace Yonze\ParseSql;
+namespace Yongze\ParseSql;
 
 class Sql
 {
